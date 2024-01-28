@@ -16,18 +16,6 @@ if __name__ == "__main__":
     else:
         print("Veyon Install Finished...")
 
-    # if not os.path.exists("C:/ProgramData/Veyon/keys/private"):
-    #     print("Making Private Key Folder...\n")
-    #     os.makedirs("C:/ProgramData/Veyon/keys/private")
-    # else:
-    #     print("Private Key Folder Exists...\n")
-
-    # if not os.path.exists("C:/ProgramData/Veyon/keys/public"):
-    #     print("Making Public Key Folder...\n")
-    #     os.makedirs("C:/ProgramData/Veyon/keys/public")
-    # else:
-    #     print("Public Key Folder Exists...\n")
-
     try:
         print("Imporing Auth Keys")
         os.chdir("C:/Program Files/Veyon")
